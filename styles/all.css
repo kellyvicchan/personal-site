@@ -1,9 +1,11 @@
 body{
-  background-color: grey;
+  background: linear-gradient(to bottom,#FFF9C4 0%, #FFFF66 100%);
 }
 
 .footer{
   position: fixed;
   background-oclor: #a7c5e2;
   color: #3d403f;
+  width: 100%;
+  padding-bottom: 10px;
 }
