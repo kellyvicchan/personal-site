@@ -1,3 +1,9 @@
 body{
   background-color: grey;
 }
+
+.footer{
+  position: fixed;
+  background-oclor: #a7c5e2;
+  color: #3d403f;
+}
