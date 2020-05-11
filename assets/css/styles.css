@@ -1,8 +1,78 @@
+/* general css */
 body {
-  color: blue;
+  color: #212121;
+  margin-bottom: 100px;
 }
 
-.basic-icon {
+h1 {
+  padding-top: 15px;
+}
+
+h5 {
+  padding-bottom: 10px;
+}
+
+a {
+  color: rgb(238,182,42);
+  text-decoration: none;
+}
+
+a:hover {
+  color:#FBC02D;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 10px;
+  position: absolute;
+  right: 0;bottom:0;left:0;
+  height:100px;
+}
+
+.container-footer {
+  padding-bottom: 50px;
+  font-size: 75%;
+}
+
+.fixed-bottom {
+  text-align: center;
+}
+
+.container-spotify {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* icon css */
+.basic-icon,
+.fa-adobe {
   margin-right: 50px;
   float: left;
+  padding-top: 5px;
+}
+
+.fa-hands-helping{
+  margin-right: 46px;
+  float: left;
+  padding-top: 5px;
+}
+
+.fa-user-graduate{
+  margin-right: 52px;
+  float: left;
+  padding-top: 5px;
+}
+
+.fa-city{
+  margin-right: 46px;
+  float: left;
+  padding-top: 5px;
+}
+
+.fa-envelope-open-text,
+.fa-linkedin,
+.fa-twitter {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 7px;
 }
