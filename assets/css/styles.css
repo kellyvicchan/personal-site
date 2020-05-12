@@ -39,8 +39,14 @@ footer {
 }
 
 .container-spotify {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
   text-align: center;
-  margin-top: 15px;
+}
+
+iframe {
+  opacity: 95%;
 }
 
 /* icon css */
