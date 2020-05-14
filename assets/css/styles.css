@@ -1,6 +1,6 @@
 /* general css */
 body {
-  color: #212121;
+  font-family: 'Work Sans', sans-serif;
   margin-bottom: 100px;
 }
 
@@ -22,6 +22,28 @@ a:hover {
   text-decoration: none;
 }
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  text-shadow: 2px 2px 5px white;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.divider {
+  padding-top: 50px;
+}
+
+.hi {
+  padding-top: 30px;
+}
+
 footer {
   padding-top: 10px;
   position: absolute;
@@ -32,6 +54,10 @@ footer {
 .container-footer {
   padding-bottom: 50px;
   font-size: 75%;
+}
+
+.description {
+  padding-top: 20px;
 }
 
 .fixed-bottom {
@@ -46,7 +72,7 @@ footer {
 }
 
 iframe {
-  opacity: 95%;
+  opacity: 90%;
 }
 
 /* icon css */
