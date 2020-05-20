@@ -21,6 +21,19 @@ a {
   text-decoration: none;
 }
 
+.basics-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.basics-row {
+  padding-bottom: 15px;
+}
+
+.spotify-player {
+    padding-top: 20px;
+  }
+
 a:hover {
   color:#FBC02D;
   text-decoration: none;
@@ -55,6 +68,7 @@ a:hover {
 
 .text_spacing1{
   padding-top: 40px;
+  padding-bottom: 25px;
 }
 
 .text_spacing{
