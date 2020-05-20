@@ -1,11 +1,15 @@
 /* general css */
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 100px;
 }
 
 h1 {
-  padding-top: 15px;
+  padding-top: 20px;
+}
+
+.hi {
+  padding-bottom: 25px;
 }
 
 h5 {
@@ -22,13 +26,18 @@ a:hover {
   text-decoration: none;
 }
 
+.tinted_pic {
+  background: rgba(76, 175, 80, 0.3);
+}
+
 .centered {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
   text-shadow: 2px 2px 5px white;
+  text-align: center;
 }
 
 .heading {
@@ -44,8 +53,20 @@ a:hover {
   padding-top: 30px;
 }
 
+.text_spacing1{
+  padding-top: 40px;
+}
+
+.text_spacing{
+  padding-top: 40px;
+}
+
+h7 {
+  padding-top: 40px;
+}
+
 footer {
-  padding-top: 10px;
+  padding-top: 40px;
   position: absolute;
   right: 0;bottom:0;left:0;
   height:100px;
