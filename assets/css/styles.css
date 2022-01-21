@@ -48,8 +48,6 @@ a:hover {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: bold;
-  text-shadow: 2px 2px 5px white;
   text-align: center;
 }
 
