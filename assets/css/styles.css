@@ -53,11 +53,7 @@ a:hover {
   text-align: center;
 }
 
-.top-centered {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.top-row {
   text-align: center;
 }
 
